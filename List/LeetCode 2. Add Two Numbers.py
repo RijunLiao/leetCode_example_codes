@@ -7,7 +7,7 @@ class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         carry_bit=0
         dummy_head=tail=ListNode(0)
-        while l1 or l2 or carry_bit==1:
+        while l1 or l2 or carry_bit==1: # while l1 or l2 or carry_bit: is also correct
             '''
             if l1==None: 
                 l1_val=0 
